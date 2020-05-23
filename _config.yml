@@ -1,6 +1,6 @@
-title: Texture Theme
-author: GitHub User
-email: your-email@domain.com
+title: Min Kyung-min
+author: andy9705
+email: andy9705@naver.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -18,9 +18,9 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Min Kyungmin 민경민
-  tagline: SKKU sophomore, Software 
+  tagline: SKKU Software Department 
   date_format: "%b %-d, %Y"
-  style: black
+  style: blue
   showNav: false
   showPicker: true
 
