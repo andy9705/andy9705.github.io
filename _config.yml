@@ -18,7 +18,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Min Kyungmin 민경민
-  tagline: SKKU Software Department 
+  tagline: Software Department 
   date_format: "%b %-d, %Y"
   style: blue
   showNav: false
