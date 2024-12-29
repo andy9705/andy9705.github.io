@@ -1,67 +1,36 @@
-<div class="cv-section">
-  {% for entry in site.data.cv %}
-    {% if entry.title == "Education" %}
-      <div class="education-entry">
-        {% for content in entry.contents %}
-          <div class="education-content row">
-            <!-- Container for Logo and Year Badge -->
-            <!-- Year Badge -->
-            <div class="badge-logo col-sm-1 col">
-              {% if content.year %}
-                <span class="badge font-weight-bold blue-gradient" style="min-width: 75px">
-                  {{- content.year -}}
-                </span>
-              {% endif %}
-              {% if content.logo %}
-                  <div class="logo" style="width: 100px">
-                    {% assign entry_path = content.logo | prepend: '/assets/img/' %}
-                    {%
-                      include figure.liquid
-                      loading="eager"
-                      path=entry_path
-                      sizes = "50px"
-                      class="preview z-depth-1 rounded"
-                      zoomable=false
-                      alt=content.logo
-                    %}
-                  </div>
-              </div>
-            {% endif %}
-            <!-- Details Column -->
-            <div class="col-8">
-              <br>
-
-              </br>
-              {% if content.title %}
-                <div class="title font-weight-bold ml-1 ml-md-4">
-                  {{ content.title }}
-                </div>
-              {% endif %}
-              {% if content.department or content.institution %}
-                <div class="ml-1 ml-md-4">
-                  {% if content.institution %}
-                    <div class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                      {{ content.institution }}
-                    </div>
-                  {% endif %}
-                  {% if content.department %}
-                    <div class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
-                      {{ content.department }}
-                    </div>
-                  {% endif %}
-                </div>
-              {% endif %}
-              {% if content.maindescription %}
-                <p class="maindescription ml-1 ml-md-4">
-                  {{ content.maindescription }}
-                </p>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endfor %}
+<div class="education">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign news = site.news | reverse %}
+        {% if include.limit and site.announcements.limit %}
+          {% assign news_limit = site.announcements.limit %}
+        {% else %}
+          {% assign news_limit = news_size %}
+        {% endif %}
+        <tr>
+          <th scope="row" style="width: 20%"><img src="/assets/img/snu_logo.png" width="96" height="96"></th>
+          <td>
+              <a href=''>Seoul National University </a><a> <br> Ph.D Student in Artificial Intelligence <br> Advisor: </a><a href='http://milab.snu.ac.kr/kjung/index.html'> Kyomin Jung </a><a> <br> Mar 2023 ~ 
+          </a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" style="width: 20%"><img src="/assets/img/skku_logo.png" width="96" height="96"></th>
+          <td>
+              <a href=''>Sungkyunkwan University </a><a> <br> B.S in Computer Science and Engineering (Magna Cum Laude)  </a><a> <br> Mar 2017 ~ Feb 2022
+          </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
 </div>
