@@ -6,15 +6,13 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 2
 ---
-
+<p>* indicates equal contribution among authors <br>
+† indicates co-corresponding authors</p>
 <!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+
