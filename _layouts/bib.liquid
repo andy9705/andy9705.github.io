@@ -83,9 +83,9 @@
     </div>
 
 {% if entry.comment %}
-<div class="comment-section" style="margin-top:20px;">
+<div class="comment-section">
   <!-- 그냥 {{ entry.comment }} 를 쓰면 HTML 태그가 그대로 해석됨 -->
-  <p>{{ entry.comment }}</p>
+  {{ entry.comment }}
 </div>
 {% endif %}
 
