@@ -368,16 +368,14 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+    },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-our-leveraging-ensemble-techniques-and-metadata-for-subjective-knowledge-grounded-conversational-systems-paper-is-awarded-as-the-best-paper-in-dstc11-workshop",
           title: 'Our Leveraging Ensemble Techniques and Metadata for Subjective Knowledge-grounded Conversational Systems paper is...',
+          description: "",
+          section: "News",},{id: "news-our-mitigating-hallucinations-in-lvlms-via-summary-guided-decoding-paper-is-accepted-to-neurips-2024-safegenai",
+          title: 'Our Mitigating Hallucinations in LVLMs via Summary-Guided Decoding paper is accepted to NeurIPS...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
