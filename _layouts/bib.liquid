@@ -82,6 +82,14 @@
       {{ entry.note | strip }}
     </div>
 
+{% if entry.comment %}
+<div class="comment-section" style="margin-top:20px;">
+  <!-- 그냥 {{ entry.comment }} 를 쓰면 HTML 태그가 그대로 해석됨 -->
+  <p>{{ entry.comment }}</p>
+</div>
+{% endif %}
+
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.abstract %}
