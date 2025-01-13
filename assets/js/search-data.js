@@ -374,7 +374,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-mitigating-hallucinations-in-lvlms-via-summary-guided-decoding-paper-is-accepted-to-neurips-2024-safegenai",
           title: 'Our Mitigating Hallucinations in LVLMs via Summary-Guided Decoding paper is accepted to NeurIPS...',
           description: "",
-          section: "News",},{id: "news-our-return-of-em-entity-driven-answer-set-expansion-for-qa-evaluation-paper-is-accepted-to-coling-2025",
+          section: "News",},{id: "news-our-return-of-em-entity-driven-answer-set-expansion-for-qa-evaluation-paper-is-accepted-to-coling-2025-as-oral-presentation",
           title: 'Our Return of EM: Entity-driven Answer Set Expansion for QA Evaluation paper is...',
           description: "",
           section: "News",},{id: "projects-project-1",
