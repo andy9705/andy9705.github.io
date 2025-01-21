@@ -15,8 +15,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Ph.D. student at Seoul National University, advised by Prof. Kyomin Jung. I aim to develop AI systems that are both beneficial and safe for society. To achieve this, I am focusing on:
+Hi, I am a Ph.D. student at Seoul National University, advised by Prof. Kyomin Jung. I aim to develop AI systems that are both beneficial and safe for society. To achieve this, I am focusing on:
 
-(1) Enhancing decoding control for more reliable and precise response,
+(1) Enabling LLMs to understand and interact across multiple modalities (Multimodal LLMs),
 
-(2) Exploring multi-agent systems to enable dynamic and collaborative AI interactions.
+(2) Enhancing decoding control for more reliable and precise responses,
+
+(3) Exploring multi-agent systems to enable dynamic and collaborative AI interactions.
