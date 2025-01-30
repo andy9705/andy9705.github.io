@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am a Ph.D. student at Seoul National University, advised by Prof. Kyomin Jung. I aim to develop AI systems that are both beneficial and safe for society. To achieve this, I am focusing on:
+Hi! I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr). I am fortunate to be advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). I aim to develop AI systems that are both beneficial and safe for society. To achieve this, I am focusing on:
 
 (1) Enabling LLMs to understand and interact across multiple modalities (Multimodal LLMs),
 
