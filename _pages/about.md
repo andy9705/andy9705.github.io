@@ -23,4 +23,7 @@ Hi! I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr). 
 
 (3) Exploring multi-agent systems to enable dynamic and collaborative AI interactions.
 
-Contact me via email: kyungmin97@snu.ac.kr
+
+
+<br><br>
+<p>Contact me via email: <span class="email">kyungmin97@snu.ac.kr</span></p>
