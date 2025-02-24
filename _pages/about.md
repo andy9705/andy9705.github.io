@@ -22,3 +22,5 @@ Hi! I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr). 
 (2) Enhancing decoding control for more reliable and precise responses,
 
 (3) Exploring multi-agent systems to enable dynamic and collaborative AI interactions.
+
+Contact me via email: kyungmin97@snu.ac.kr
