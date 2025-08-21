@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [Fooling the LVLM Judges: Visual Biases in LVLM-Based Evaluation]([https://www.arxiv.org/abs/2505.15249]) paper is accepted to **EMNLP 2025**!
+Our [Fooling the LVLM Judges: Visual Biases in LVLM-Based Evaluation](https://www.arxiv.org/abs/2505.15249) paper is accepted to **EMNLP 2025**!
