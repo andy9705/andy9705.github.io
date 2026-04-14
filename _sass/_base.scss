@@ -285,6 +285,42 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-text-color);
 }
 
+// Education & Honors 2-column layout
+
+.info-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 20px 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.award-year {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 // Profile
 
 .profile {

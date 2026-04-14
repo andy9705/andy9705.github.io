@@ -25,3 +25,23 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
   <span class="chip">Reliability of QA Systems</span>
   <span class="chip">Agentic Systems</span>
 </div>
+
+<div class="info-columns">
+  <div>
+    <h2>Education</h2>
+    <ul class="compact-list">
+      <li><strong>Seoul National University</strong> — Ph.D. in Electrical & Computer Engineering (Mar 2023 – Present)<br/>Advisor: Prof. Kyomin Jung</li>
+      <li><strong>Sungkyunkwan University (SKKU)</strong> — B.S. in Computer Science and Engineering, <em>Magna Cum Laude</em> (Mar 2017 – Feb 2023)</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Honors & Awards</h2>
+    <ul class="compact-list">
+      <li>Creative Autonomous Research Competition, SNU IPAI — <strong>Winner</strong> <span class="award-year">Jun 2025</span></li>
+      <li>Research Paper Competition, SNU IPAI — <strong>Honorable Mention</strong> <span class="award-year">Jun 2025</span></li>
+      <li>AI Fellowship Scholarship (Full-tuition), Seoul National University <span class="award-year">2023 – 2024</span></li>
+      <li>Best Paper Award, DSTC11 — Track 5 (Task-oriented Conversational Modeling with Subjective Knowledge) <span class="award-year">Sep 2023</span></li>
+      <li>Dean's List, Sungkyunkwan University <span class="award-year">2021 – 2022</span></li>
+    </ul>
+  </div>
+</div>
