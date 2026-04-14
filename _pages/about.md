@@ -17,7 +17,7 @@ social: false # social links are now in the hero section
 
 <h2>About</h2>
 
-I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). My research focuses on building reliable and trustworthy multimodal AI systems. I study how large vision-language models perceive, reason, and sometimes hallucinate — and develop methods to make their outputs more faithful and grounded. My recent work spans hallucination mitigation in LVLMs, evaluation methodology for multimodal models, and experience-driven memory systems for AI agents. I am particularly interested in enabling agentic systems that learn from their own experience and improve over time without additional training.
+I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). My research focuses on building reliable and trustworthy multimodal AI systems. I study how large vision-language models perceive, reason, and sometimes hallucinate — and develop methods to make their outputs more faithful and grounded. My recent work spans hallucination mitigation in LVLMs, evaluation methodology for multimodal models, and experience-driven memory systems for AI agents. I am particularly interested in enabling agentic systems that learn from their own experience and improve over time without additional training, and in understanding why vision-language models lose image grounding as sequences grow longer.
 
 <div class="chips">
   <span class="chip">VLM/LLM</span>
