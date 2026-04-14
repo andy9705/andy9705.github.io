@@ -77,6 +77,13 @@
 
     <div class="periodical">
       {{ periodical | strip }}
+      {% if entry.pdf and entry.pdf != "" %}
+        {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}" class="pub-link" target="_blank" rel="noopener">[link]</a>
+        {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="pub-link" target="_blank" rel="noopener">[link]</a>
+        {% endif %}
+      {% endif %}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
@@ -98,13 +105,7 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% endif %}
-      {% endif %}
+      {% comment %}PDF link is now inline next to the periodical{% endcomment %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
