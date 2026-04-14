@@ -36,11 +36,7 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
   <div>
     <h2>Honors & Awards</h2>
     <ul class="compact-list">
-      <li>Creative Autonomous Research Competition, SNU IPAI — <strong>Winner</strong> <span class="award-year">Jun 2025</span></li>
-      <li>Research Paper Competition, SNU IPAI — <strong>Honorable Mention</strong> <span class="award-year">Jun 2025</span></li>
-      <li>AI Fellowship Scholarship (Full-tuition), Seoul National University <span class="award-year">2023 – 2024</span></li>
       <li>Best Paper Award, DSTC11 — Track 5 (Task-oriented Conversational Modeling with Subjective Knowledge) <span class="award-year">Sep 2023</span></li>
-      <li>Dean's List, Sungkyunkwan University <span class="award-year">2021 – 2022</span></li>
     </ul>
   </div>
 </div>
