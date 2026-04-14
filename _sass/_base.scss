@@ -194,15 +194,15 @@ ul.task-list input[type="checkbox"] {
 
 .hero-section {
   display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 24px;
+  grid-template-columns: 112px 1fr;
+  gap: 18px;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
 .hero-avatar {
-  width: 140px;
-  height: 140px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--global-divider-color);

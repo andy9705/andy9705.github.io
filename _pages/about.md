@@ -17,13 +17,12 @@ social: false # social links are now in the hero section
 
 <h2>About</h2>
 
-I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). I also collaborate with Dr. [Seunghyun Yoon](https://mypage.science/) at Adobe Research. I aim to develop AI systems that are both beneficial and safe for society.
+I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). I aim to develop AI systems that are both beneficial and safe for society.
 
 <div class="chips">
-  <span class="chip">Multimodal LLMs</span>
-  <span class="chip">LLM/LVLM Evaluation</span>
-  <span class="chip">Reliability of QA Systems</span>
-  <span class="chip">Agentic Systems</span>
+  <span class="chip">VLM/LLM</span>
+  <span class="chip">Multi-Agent System</span>
+  <span class="chip">Agentic AI</span>
 </div>
 
 <div class="info-columns">
