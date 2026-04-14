@@ -195,9 +195,10 @@ ul.task-list input[type="checkbox"] {
 .hero-section {
   display: grid;
   grid-template-columns: 112px 1fr;
-  gap: 18px;
+  gap: 20px;
   align-items: center;
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 0;
 }
 
 .hero-avatar {
@@ -205,39 +206,41 @@ ul.task-list input[type="checkbox"] {
   height: 112px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--global-divider-color);
+  border: 2px solid var(--global-divider-color);
+  background: var(--global-bg-color);
 }
 
 .hero-info {
   .hero-name {
     font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 0.3rem 0;
+    font-weight: 700;
+    margin: 0 0 0.2rem 0;
+    letter-spacing: -0.01em;
   }
 
   .hero-subtitle {
     color: var(--global-text-color-light);
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.92rem;
+    margin-bottom: 0.6rem;
   }
 }
 
 .hero-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  font-size: 0.9rem;
+  gap: 16px;
+  font-size: 0.88rem;
 
   a {
     text-decoration: none;
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
 
     &:hover {
-      text-decoration: underline;
+      color: var(--global-theme-color);
     }
 
     i {
-      margin-right: 2px;
+      margin-right: 3px;
     }
   }
 }
@@ -254,34 +257,44 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// About content & chips
+// About content
 
 .about-content {
   h2 {
-    font-size: 1.25rem;
-    margin: 24px 0 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  h2:first-child {
+    margin-top: 0;
   }
 
   p {
-    line-height: 1.6;
-    font-size: 0.95rem;
+    line-height: 1.65;
+    font-size: 0.93rem;
+    margin-bottom: 0.8rem;
   }
 }
+
+// Keyword chips
 
 .chips {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 10px;
-  margin-bottom: 1rem;
+  margin-top: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .chip {
-  padding: 4px 12px;
+  padding: 3px 11px;
   background-color: var(--global-code-bg-color);
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--global-text-color);
 }
 
@@ -290,35 +303,53 @@ ul.task-list input[type="checkbox"] {
 .info-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  padding: 20px 0;
+  gap: 28px;
+  padding: 16px 0 8px;
   border-top: 1px solid var(--global-divider-color);
+  margin-top: 4px;
 
-  h2 {
-    font-size: 1.25rem;
+  > div > h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
     margin: 0 0 10px;
+    padding-top: 0;
+    border-top: none;
   }
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 }
 
 .compact-list {
   margin: 0;
-  padding-left: 18px;
-  font-size: 0.92rem;
+  padding-left: 16px;
+  font-size: 0.9rem;
   line-height: 1.55;
 
   li {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 }
 
 .award-year {
   color: var(--global-text-color-light);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-style: italic;
+  white-space: nowrap;
+}
+
+// Home page sections
+
+.home-section {
+  padding-top: 12px;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
 }
 
 // Profile

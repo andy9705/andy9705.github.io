@@ -11,7 +11,7 @@ layout: default
       {% endif %}
       <div class="hero-info">
         <h1 class="hero-name">{{ site.middle_name }} {{ site.last_name }}</h1>
-        <div class="hero-subtitle">Ph.D. Student, Artificial Intelligence, Seoul National University</div>
+        <div class="hero-subtitle">Ph.D. Student in Artificial Intelligence, Seoul National University</div>
         <nav class="hero-links">
           {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> Email</a>{% endif %}
           {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}
@@ -21,48 +21,31 @@ layout: default
       </div>
     </div>
 
+    <!-- About + Education + Honors (from content) -->
     <div class="about-content">{{ content }}</div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <div class="home-section">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </div>
     {% endif %}
 
-    <!-- Latest posts -->
-    {% comment %}
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-    {% endcomment %}
-
-    <!-- Selected papers -->
-    
+    <!-- Publications -->
+    <div class="home-section">
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    
+    </div>
 
-
-
-
-
-
-
-
-
-
-  <!-- Social -->
+    <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
