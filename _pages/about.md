@@ -17,11 +17,13 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr). I am fortunate to be advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). I aim to develop AI systems that are both beneficial and safe for society. To achieve this, I am focusing on:
 
-(1) Enabling LLMs to understand and interact across multiple modalities (Multimodal LLMs),
+(1) Multimodal LLMs,
 
-(2) Enhancing decoding control for more reliable and precise responses,
+(2) LLM/LVLM Evaluation,
 
-(3) Exploring multi-agent systems to enable dynamic and collaborative AI interactions.
+(3) Reliability of Question Answering Systems,
+
+(4) Agentic Systems.
 
 <p>Contact me via email: 
     <span style="background-color: #fbefff; color: #c500c5;  padding: 2px 6px; border-radius: 5px;">
