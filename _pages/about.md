@@ -36,7 +36,7 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
   <div>
     <h2>Honors & Awards</h2>
     <ul class="compact-list">
-      <li>Best Paper Award, DSTC11 — Track 5 (Task-oriented Conversational Modeling with Subjective Knowledge) <span class="award-year">Sep 2023</span></li>
+      <li>Best Paper Award, The Eleventh Dialog System Technology Challenge (DSTC 11) — Track 5 (Task-oriented Conversational Modeling with Subjective Knowledge) <span class="award-year">Sep 2023</span></li>
     </ul>
   </div>
 </div>
