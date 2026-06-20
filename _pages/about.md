@@ -40,3 +40,8 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
     </ul>
   </div>
 </div>
+
+<h2>Research Experience</h2>
+<ul class="compact-list">
+  <li><strong>Research Intern</strong> — EXAONE Lab, LG AI Research, Seoul, Republic of Korea (May 2026 – Present)</li>
+</ul>
