@@ -41,7 +41,26 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
   </div>
 </div>
 
-<h2>Research Experience</h2>
-<ul class="compact-list">
-  <li><strong>Research Intern</strong> — EXAONE Lab, LG AI Research, Seoul, Republic of Korea (May 2026 – Present)</li>
-</ul>
+<h2>Work Experience</h2>
+<div class="table-responsive">
+  <table class="table table-sm table-borderless">
+    <tr>
+      <th scope="row" style="width: 20%"><img src="/assets/img/lg_ai_logo.png" width="96" height="96" alt="LG AI Research logo"></th>
+      <td>
+        <a href="https://www.lgresearch.ai/" style="text-decoration: none" rel="external nofollow noopener" target="_blank"><strong><span style="color: #a50034">LG</span> AI Research</strong></a>
+        <br />Research Intern, EXAONE Lab
+        <br />Mentor: Soyeon Kim
+        <br />May 2026 – Present
+      </td>
+    </tr>
+    <tr>
+      <th scope="row" style="width: 20%"><img src="/assets/img/adobe_logo.png" width="96" height="96" alt="Adobe Research logo"></th>
+      <td>
+        <a href="https://research.adobe.com/" style="text-decoration: none" rel="external nofollow noopener" target="_blank"><strong><span style="color: #fa0f00">Adobe</span> Research</strong></a>
+        <br />Collaborative Researcher
+        <br />Host: <a href="https://david-yoon.github.io/" rel="external nofollow noopener" target="_blank">David Seunghyun Yoon</a>
+        <br />May 2025 – May 2026
+      </td>
+    </tr>
+  </table>
+</div>
