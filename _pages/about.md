@@ -47,8 +47,8 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
     <tr>
       <th scope="row" style="width: 20%"><img src="/assets/img/lg_ai_logo.png" width="96" height="96" alt="LG AI Research logo"></th>
       <td>
-        <a href="https://www.lgresearch.ai/" style="text-decoration: none" rel="external nofollow noopener" target="_blank"><strong><span style="color: #a50034">LG</span> AI Research</strong></a>
-        <br />Research Intern, EXAONE Lab
+        <a href="https://www.lgresearch.ai/" style="text-decoration: none" rel="external nofollow noopener" target="_blank"><strong><span style="color: #a50034">LG</span> AI Research</strong></a>, EXAONE Lab
+        <br />Research Intern
         <br />Mentor: Soyeon Kim
         <br />May 2026 – Present
       </td>
