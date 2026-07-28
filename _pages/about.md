@@ -49,12 +49,12 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
       <td>
         <a href="https://www.lgresearch.ai/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>LG AI Research</strong></a>, EXAONE Lab
         <br />Research Intern
-        <br />Mentor: Soyeon Kim
+        <br />Mentor: <a href="https://www.linkedin.com/in/soyeon-kim-733107168/" rel="external nofollow noopener" target="_blank">Soyeon Kim</a>
         <br />May 2026 – Present
       </td>
     </tr>
     <tr>
-      <th scope="row" style="width: 20%"><img src="/assets/img/adobe_logo.png" width="96" height="96" alt="Adobe Research logo"></th>
+      <th scope="row" style="width: 20%"><img src="/assets/img/Adobe-Logo.png" width="96" height="96" alt="Adobe Research logo"></th>
       <td>
         <a href="https://research.adobe.com/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>Adobe Research</strong></a>
         <br />Collaborative Researcher
