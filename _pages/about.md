@@ -54,7 +54,7 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
       </td>
     </tr>
     <tr>
-      <th scope="row" style="width: 20%"><img src="/assets/img/adobe-images.png" width="90" height="86" alt="Adobe Research logo"></th>
+      <th scope="row" style="width: 20%"><img src="/assets/img/adobe.jpg" width="96" height="96" alt="Adobe Research logo"></th>
       <td>
         <a href="https://research.adobe.com/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>Adobe Research</strong></a>
         <br />Collaborative Researcher
