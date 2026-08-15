@@ -45,8 +45,10 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
     <tr>
-      <th scope="row" style="width: 20%"><img src="/assets/img/lg_ai_logo.png" width="96" height="96" alt="LG AI Research logo"></th>
-      <td>
+      <th scope="row" class="text-center align-middle" style="width: 20%">
+        <img src="/assets/img/lg_ai_logo.png" width="96" height="96" alt="LG AI Research logo" class="mx-auto d-block">
+      </th>
+      <td class="align-middle">
         <a href="https://www.lgresearch.ai/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>LG AI Research</strong></a>, EXAONE Lab
         <br />Research Intern
         <br />Mentor: <a href="https://www.linkedin.com/in/soyeon-kim-733107168/" rel="external nofollow noopener" target="_blank">Soyeon Kim</a>
@@ -54,8 +56,10 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
       </td>
     </tr>
     <tr>
-      <th scope="row" style="width: 20%"><img src="/assets/img/adobe.jpg" width="96" height="48" alt="Adobe Research logo"></th>
-      <td>
+      <th scope="row" class="text-center align-middle" style="width: 20%">
+        <img src="/assets/img/adobe.jpg" width="96" height="48" alt="Adobe Research logo" class="mx-auto d-block">
+      </th>
+      <td class="align-middle">
         <a href="https://research.adobe.com/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>Adobe Research</strong></a>
         <br />Collaborative Researcher
         <br />Host: <a href="https://david-yoon.github.io/" rel="external nofollow noopener" target="_blank">David Seunghyun Yoon</a>
