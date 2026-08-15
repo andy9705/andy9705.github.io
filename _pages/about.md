@@ -45,8 +45,8 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
     <tr>
-      <th scope="row" class="text-center align-middle" style="width: 20%">
-        <img src="/assets/img/lg_ai_logo.png" width="96" height="96" alt="LG AI Research logo" class="mx-auto d-block">
+      <th scope="row" class="text-center align-middle" style="width: 170px; padding-right: 1.5rem">
+        <img src="/assets/img/lg_ai_logo.png" alt="LG AI Research logo" class="mx-auto d-block" style="width: 140px; height: auto">
       </th>
       <td class="align-middle">
         <a href="https://www.lgresearch.ai/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>LG AI Research</strong></a>, EXAONE Lab
@@ -56,8 +56,8 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
       </td>
     </tr>
     <tr>
-      <th scope="row" class="text-center align-middle" style="width: 20%">
-        <img src="/assets/img/adobe.jpg" width="96" height="48" alt="Adobe Research logo" class="mx-auto d-block">
+      <th scope="row" class="text-center align-middle" style="width: 170px; padding-right: 1.5rem">
+        <img src="/assets/img/adobe.jpg" alt="Adobe Research logo" class="mx-auto d-block" style="width: 140px; height: auto">
       </th>
       <td class="align-middle">
         <a href="https://research.adobe.com/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>Adobe Research</strong></a>
