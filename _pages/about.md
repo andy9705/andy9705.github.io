@@ -52,7 +52,7 @@ I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advi
         <a href="https://www.lgresearch.ai/" style="text-decoration: none; color: inherit" rel="external nofollow noopener" target="_blank"><strong>LG AI Research</strong></a>, EXAONE Lab
         <br />Research Intern
         <br />Mentor: <a href="https://www.linkedin.com/in/soyeon-kim-733107168/" rel="external nofollow noopener" target="_blank">Soyeon Kim</a>
-        <br />May 2026 – Present
+        <br />May 2026 – Aug 2026
       </td>
     </tr>
     <tr>
