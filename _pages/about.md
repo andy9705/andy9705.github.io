@@ -17,20 +17,20 @@ social: false # social links are now in the hero section
 
 <h2>About</h2>
 
-I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). My research focuses on building reliable and trustworthy multimodal AI systems. I study how large vision-language models perceive, reason, and sometimes hallucinate — and develop methods to make their outputs more faithful and grounded. My recent work spans hallucination mitigation in LVLMs, evaluation methodology for multimodal models, and experience-driven memory systems for AI agents. I am particularly interested in enabling agentic systems that learn from their own experience and improve over time without additional training, and in understanding why vision-language models lose image grounding as sequences grow longer.
+I am a Ph.D student at [Seoul National University](http://milab.snu.ac.kr), advised by Prof. [Kyomin Jung](http://milab.snu.ac.kr/kjung/index.html). My research lies at the intersection of multimodal LLMs and experience-driven memory for AI agents. I study how multimodal models can stay grounded in what they see, and how agents can learn from their own experience: what to store, how to retrieve and reuse it, and how memory helps them solve tasks more accurately and in fewer steps. Bringing these two threads together, I am extending agent memory beyond text to images and videos.
 
 <div class="chips">
-  <span class="chip">VLM/LLM</span>
-  <span class="chip">Multi-Agent System</span>
   <span class="chip">Agentic AI</span>
+  <span class="chip">Multi-Agent System</span>
+  <span class="chip">VLM/LLM</span>
 </div>
 
 <div class="info-columns">
   <div>
     <h2>Education</h2>
     <ul class="compact-list">
-      <li><strong>Seoul National University</strong> — Ph.D. in Artificial Intelligence (Mar 2023 – Present)<br/>Advisor: Prof. Kyomin Jung</li>
-      <li><strong>Sungkyunkwan University (SKKU)</strong> — B.S. in Computer Science and Engineering, <em>Magna Cum Laude</em> (Mar 2017 – Feb 2023)</li>
+      <li><strong>Seoul National University</strong> — Ph.D. Student in Artificial Intelligence (Mar 2023 – Present)<br/>Advisor: Prof. Kyomin Jung</li>
+      <li><strong>Sungkyunkwan University</strong> — B.S. in Computer Science and Engineering, <em>Magna Cum Laude</em> (Mar 2017 – Feb 2023)</li>
     </ul>
   </div>
   <div>
